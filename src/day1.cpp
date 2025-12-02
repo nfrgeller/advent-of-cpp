@@ -38,6 +38,7 @@ int part2() {
   int result = 0;
 
   while (std::getline(stream, current_line)) {
+
     char direction = current_line[0];
     int distance = std::stoi(current_line.substr(1));
     int i = location;

@@ -1,5 +1,5 @@
 #include "utils.h"
-
+#include <filesystem>
 #include <format>
 #include <fstream>
 #include <stdexcept>
@@ -24,4 +24,4 @@ std::string read_puzzle_input(int day) {
   return content;
 }
 
-} 
+} // namespace utils
