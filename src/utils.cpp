@@ -24,4 +24,4 @@ std::string read_puzzle_input(int day) {
   return content;
 }
 
-} // namespace utils
+} 
